@@ -365,6 +365,9 @@ void __init stm32_clock_init(void)
 	case PLATFORM_STM32_STM3240G_EVAL:
 		hse_hz = 25000000;
 		break;
+	case PLATFORM_STM32_STM32429_DISCO:
+		hse_hz = 8000000;
+		break;
 	case PLATFORM_STM32_STM_SOM:
 	case PLATFORM_STM32_STM_STM32F439_SOM:
 	case PLATFORM_STM32_STM_STM32F7_SOM:
